@@ -1,0 +1,42 @@
+
+.steps-container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.steps{
+font-size: 30px;
+display: flex;
+justify-content: center;
+padding-top:40px ;
+padding-bottom: 10px;
+
+}
+.steps h2{
+    color: rgb(41, 41, 138);
+}
+.process{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    line-height: 1.4;
+}
+.process h3{
+font-size: 25px;
+color: rgb(214, 214, 31);
+
+}
+.process p{
+    font-size: 50px;
+    color: rgb(171, 180, 46);
+}
+.upper{
+    color: rgb(41, 41, 138);
+    font-size: 22px;
+
+  }
+.inner{
+    font-size: 17px;
+    list-style:inside;
+
+}
