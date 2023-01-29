@@ -35,15 +35,17 @@ height: 100%;
     font-size: 130px;
    
 padding: 5px;
-color: rgb(41, 41, 138);
+color: rgba(17, 37, 153, 0.863);
 }
 .hero-content p{
 font-size: 20px;
 font-weight: 200px;
 text-transform: uppercase;
+color:rgba(204, 175, 46, 0.863) ;
 }
 .hero-content small{
     font-size: 19px;
+    color:white
 }
 .hero-content .btn{
     margin: 90px ;
@@ -51,9 +53,13 @@ text-transform: uppercase;
 .btn button{
     padding: 20px;
     font-size: 30px;
-    border: 2px solid rgb(41, 41, 138);
+    border: 2px solid rgba(204, 175, 46, 0.863);
     border-radius: 10px;
     background: transparent;
     cursor: pointer;
-    
+    color: rgba(204, 175, 46, 0.863);
+}
+button:hover{
+    font-weight: bold;
+    color: rgba(226, 200, 84, 0.863);
 }
