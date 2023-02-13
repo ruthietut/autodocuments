@@ -14,9 +14,8 @@ const Steps = () => {
 
       <div className="process">
         <div className="card">
-          <FaList
-            size={100}
-            style={{ color: "#fff", marginRight: "3rem", borderRadius:"50%" }}
+          <img src="https://media.istockphoto.com/id/1179640294/vector/contract-or-document-signing-icon-document-folder-with-stamp-and-text-contract-conditions.jpg?s=612x612&w=0&k=20&c=87Bu41EuMtdXDfJbm1YrquzUmHtPjFiCb9PCsrsWP1c=" alt="file"
+           
             
           />
           <h3>Step 1: Document Type</h3>
@@ -43,7 +42,7 @@ const Steps = () => {
           <p>You can select any document type</p>
         </div>
         <div className="card">
-          <FaCar size={100}  style={{ color: "#fff", marginRight: "3rem" }} />
+          <img src="https://toppng.com/uploads/preview/rental-cars-from-just-40day-car-11564248951q9dryu8kbm.png" alt="car" />
           <h3>Step 2: Select Vehicle Type</h3>
           <ul className="inner">
             <li>Motorcycle</li>
@@ -59,9 +58,8 @@ const Steps = () => {
           </p>
         </div>
         <div className="card">
-          <FaCcMastercard
-            size={100}
-            style={{ color: "#fff", marginRight: "3rem"}}
+          <img src="https://www.mastercard.com/content/dam/public/mastercardcom/na/us/en/homepage/Home/mc-logo-52.svg" alt="mastercard"
+          
           />
           <h3>Step 3: Make payment</h3>
           <p>Proceed to make payment by either card or bank transfer</p>
@@ -71,7 +69,7 @@ const Steps = () => {
       <div className="done">
         <FaRegThumbsUp
           size={100}
-          style={{ color: "#fff", marginRight: "3rem"}}
+          style={{ color: "darkblue", marginRight: "3rem"}}
         />
         <h3>Done within 24hrs</h3>
         <p>

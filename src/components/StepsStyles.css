@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     /* text-align: center; */
-   
+   color: white;
 }
 .steps-container h2{
     font-size: 50px;
@@ -28,6 +28,12 @@ color: rgba(204, 175, 46, 0.863);
     height: 100%;
     padding: 10px;
 }
+.card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+background-position: center;
+}
 .card h3{
     font-size: 30px; 
     color: rgb(43, 20, 99);
@@ -45,6 +51,7 @@ color: rgba(204, 175, 46, 0.863);
 .inner{
     font-size: 17px;
     list-style:none; 
+    color: white;
     /* padding-left:15px ; */
 }
 .done{

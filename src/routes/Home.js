@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import GoogleMyBusinessReviews from '../components/GoogleMyBusinessReviews'
 import HeroImg from '../components/HeroImg'
 import Nav from '../components/Nav'
 import Steps from "../components/Steps"
@@ -9,6 +11,8 @@ const Home = () => {
         <Nav/>
         <HeroImg/>
         <Steps/>
+        <GoogleMyBusinessReviews/>
+        <Footer/>
     </div>
   )
 }
