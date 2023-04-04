@@ -50,12 +50,12 @@ function HeroImg() {
           Your one stop shop for vehicle documentations
         </Text>
         <Text color="white">...always reliable</Text>
-        <Flex
+        <Button
           // as="flex"
          
           bg="rgb(17, 48, 75)"
           color="yellow.500"
-          ml="160px"
+          // ml="160px"
           mt="30px"
           size="lg"
           fontSize="lg"
@@ -70,7 +70,7 @@ function HeroImg() {
           <Link to="/SignUp" >
             Get Started
           </Link>
-        </Flex>
+        </Button>
       </Box>
     </Flex>
   );
