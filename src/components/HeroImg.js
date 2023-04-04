@@ -38,7 +38,7 @@ function HeroImg() {
       alignItems="center"
       justifyContent="center"
       px={8}
-      py={16} 
+      py={16}
       w="100%"
       wrap="wrap">
       <Box maxW="xl" mx="auto" textAlign="center" mt="20" wrap="wrap">
@@ -50,18 +50,27 @@ function HeroImg() {
           Your one stop shop for vehicle documentations
         </Text>
         <Text color="white">...always reliable</Text>
-        <Button
+        <Flex
+          // as="flex"
+         
           bg="rgb(17, 48, 75)"
           color="yellow.500"
-          m="50px"
+          ml="160px"
+          mt="30px"
           size="lg"
           fontSize="lg"
           width="150px"
-          _hover={{ bg: "rgb(17, 48, 75)", color: "white" }}>
-          <Link to="/SignUp" _hover={{ bg: "rgb(17, 48, 75)", color: "white" }}>
+          height="50px"
+          borderRadius="100px"
+          alignContent="center"
+          justifyContent="center"
+          alignItems="center"
+          _hover={{ bg: "rgb(17, 48, 75)", color: "white" }}
+          >
+          <Link to="/SignUp" >
             Get Started
           </Link>
-        </Button>
+        </Flex>
       </Box>
     </Flex>
   );

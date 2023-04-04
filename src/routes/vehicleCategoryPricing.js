@@ -196,73 +196,73 @@ const vehiclelicenes = [
     },
   ];
 
-  const vehicleCategories = () => {
-    return (
-      <Container maxW="container.xl">
-        <Box p={4} bg="white" rounded="md" shadow="md">
-          <Heading size="md">Vehicle Categories</Heading>
-          <Text fontSize="sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptate, quod quae, volup
-          </Text>
-          <Table variant="simple">
-            <Thead>
-              <Tr>
-                <Th>Vehicle Category</Th>
-                <Th>Vehicle Type</Th>
-                <Th>Price</Th>
-              </Tr>
-            </Thead>
-            <Tbody>
-              {vehiclelicenes.map((vehicle) => (
-                <Tr key={vehicle.label}>
-                  <Td>{vehicle.name}</Td>
-                  <Td>{vehicle.label}</Td>
-                  <Td>{vehicle.price}</Td>
-                </Tr>
-              ))}
-            </Tbody>
-          </Table>
-        </Box>
-      </Container>
-    );
-  };
+  // const vehicleCategories = () => {
+  //   return (
+  //     <Container maxW="container.xl">
+  //       <Box p={4} bg="white" rounded="md" shadow="md">
+  //         <Heading size="md">Vehicle Categories</Heading>
+  //         <Text fontSize="sm">
+  //           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+  //           voluptate, quod quae, volup
+  //         </Text>
+  //         <Table variant="simple">
+  //           <Thead>
+  //             <Tr>
+  //               <Th>Vehicle Category</Th>
+  //               <Th>Vehicle Type</Th>
+  //               <Th>Price</Th>
+  //             </Tr>
+  //           </Thead>
+  //           <Tbody>
+  //             {vehiclelicenes.map((vehicle) => (
+  //               <Tr key={vehicle.label}>
+  //                 <Td>{vehicle.name}</Td>
+  //                 <Td>{vehicle.label}</Td>
+  //                 <Td>{vehicle.price}</Td>
+  //               </Tr>
+  //             ))}
+  //           </Tbody>
+  //         </Table>
+  //       </Box>
+  //     </Container>
+  //   );
+  // };
   
-  const Roadworthiness = () => {
-    return (
-      <Container maxW="container.xl">
-        <Box p={4} bg="white" rounded="md" shadow="md">
-          <Heading size="md">Roadworthiness</Heading>
-          <Text fontSize="sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptate, quod quae, volup
-          </Text>
-          <Table variant="simple">
-            <Thead>
-              <Tr>
-                <Th>Vehicle Category</Th>
-                <Th>Vehicle Type</Th>
-                <Th>Price</Th>
-              </Tr>
-            </Thead>
-            <Tbody>
-              {roadworthiness.map((vehicle) => (
-                <Tr key={vehicle.label}>
-                  <Td>{vehicle.name}</Td>
-                  <Td>{vehicle.label}</Td>
-                  <Td>{vehicle.price}</Td>
-                </Tr>
-              ))}
-            </Tbody>
-          </Table>
-        </Box>
-      </Container>
-    );
-  }
+  // const Roadworthiness = () => {
+  //   return (
+  //     <Container maxW="container.xl">
+  //       <Box p={4} bg="white" rounded="md" shadow="md">
+  //         <Heading size="md">Roadworthiness</Heading>
+  //         <Text fontSize="sm">
+  //           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+  //           voluptate, quod quae, volup
+  //         </Text>
+  //         <Table variant="simple">
+  //           <Thead>
+  //             <Tr>
+  //               <Th>Vehicle Category</Th>
+  //               <Th>Vehicle Type</Th>
+  //               <Th>Price</Th>
+  //             </Tr>
+  //           </Thead>
+  //           <Tbody>
+  //             {roadworthiness.map((vehicle) => (
+  //               <Tr key={vehicle.label}>
+  //                 <Td>{vehicle.name}</Td>
+  //                 <Td>{vehicle.label}</Td>
+  //                 <Td>{vehicle.price}</Td>
+  //               </Tr>
+  //             ))}
+  //           </Tbody>
+  //         </Table>
+  //       </Box>
+  //     </Container>
+  //   );
+  // }
 
 
-  const Thirdpartyinsurance = () => {
+  // const Thirdpartyinsurance = () => {
 
 
 
-  }
+  // }
