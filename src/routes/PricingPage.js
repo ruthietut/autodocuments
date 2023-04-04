@@ -28,10 +28,10 @@ const PRICING_PLANS = [
     id: 1,
     name: "Vehicle Papers Renewal",
     price: 6000,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Select the type of Vehicle, then check the options you require to see the price. For example, for a commercial vehicle you need to select the Hackney Permit option..",
     selection: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Select vehicle category">
           <option>Motorcycle/Tricycle </option>
           <option>
@@ -70,16 +70,15 @@ const PRICING_PLANS = [
     ),
     action: (
       <Link to="/SignUp">
-      <Button
-      bg="rgb(17, 48, 75)"
-        variant="outline"
-        size="sm"
-        color="white"
-        _hover={{ bg: "rgb(17, 48, 75)" }}
-        mt={4}
-      >
-        Start your Paper Renewal
-      </Button>
+        <Button
+          bg="rgb(17, 48, 75)"
+          variant="outline"
+          size="sm"
+          color="white"
+          _hover={{ bg: "rgb(17, 48, 75)" }}
+          mt={4}>
+          Start your Paper Renewal
+        </Button>
       </Link>
     ),
   },
@@ -87,10 +86,10 @@ const PRICING_PLANS = [
     id: 2,
     name: "New Vehicle Registration",
     price: 2000,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Select the type of Vehicle, then select all the options you require to see the accurate price.",
     selection: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Select vehicle category">
           <option>Motorcycle/Tricycle </option>
           <option>
@@ -109,7 +108,6 @@ const PRICING_PLANS = [
     ),
     selection2: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Registration Type">
           <option>Motorcycle/Tricycle </option>
           <option>Private Vehicle (with 3rd party insurance)</option>
@@ -121,7 +119,6 @@ const PRICING_PLANS = [
     ),
     selection3: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Type of Number Plate">
           <option>Any Number</option>
           <option>Customized Number Plate</option>
@@ -130,16 +127,15 @@ const PRICING_PLANS = [
     ),
     action: (
       <Link to="/SignUp">
-      <Button
-      bg="rgb(17, 48, 75)"
-      variant="outline"
-      size="sm"
-      color="white"
-      _hover={{ bg: "rgb(17, 48, 75)" }}
-      mt={4}
-      >
-        Start Vehicle Registration
-      </Button>
+        <Button
+          bg="rgb(17, 48, 75)"
+          variant="outline"
+          size="sm"
+          color="white"
+          _hover={{ bg: "rgb(17, 48, 75)" }}
+          mt={4}>
+          Start Vehicle Registration
+        </Button>
       </Link>
     ),
   },
@@ -147,10 +143,10 @@ const PRICING_PLANS = [
     id: 3,
     name: "Change of Ownership",
     price: 3000,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Select the type of Vehicle, then select all the options you require, to see the acccurate price.",
     selection4: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Select vehicle category">
           <option>Motorcycle/Tricycle </option>
           <option>
@@ -169,7 +165,6 @@ const PRICING_PLANS = [
     ),
     selection5: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Vehicle license Expiry">
           <option>Not Expired</option>
           <option>Less than 1 month</option>
@@ -186,7 +181,6 @@ const PRICING_PLANS = [
     ),
     selection6: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Registration Type">
           <option>Private Vehicle</option>
           <option>Commercial Vehicle</option>
@@ -196,7 +190,6 @@ const PRICING_PLANS = [
 
     selection7: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Number plate choice">
           <option>Motorcycle/Tricycle </option>
           <option>Use a new number plate</option>
@@ -206,17 +199,16 @@ const PRICING_PLANS = [
       </FormControl>
     ),
     action: (
-      < Link to="/SignUp">
-      <Button
-      bg="rgb(17, 48, 75)"
-      variant="outline"
-      size="sm"
-      color="white"
-      _hover={{ bg: "rgb(17, 48, 75)" }}
-      mt={4}
-      >
-        Start Change of Ownership
-      </Button>
+      <Link to="/SignUp">
+        <Button
+          bg="rgb(17, 48, 75)"
+          variant="outline"
+          size="sm"
+          color="white"
+          _hover={{ bg: "rgb(17, 48, 75)" }}
+          mt={4}>
+          Start Change of Ownership
+        </Button>
       </Link>
     ),
   },
@@ -225,97 +217,63 @@ const PRICING_PLANS = [
     id: 4,
     name: "OtherPermit and Paper Renewal",
     price: 4000,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Select your type of permit below.",
     selection8: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Select Type of Permit">
-          
-          <option>
-            S/w Local govt permit for (motorcycle) 1 year
-          </option>
-          <option>
-            Stage carriage permit for (motorcycle) 1 year
-          </option>
+          <option>S/w Local govt permit for (motorcycle) 1 year</option>
+          <option>Stage carriage permit for (motorcycle) 1 year</option>
           <option> Stage carriage permit (Cars/Buses)</option>
           <option> S/W Local govt permit for (Buses)</option>
           <option>Nigeria local govt permit (Cars/Buses/Trucks)</option>
           <option>Replace/Reprint vehicle plate number</option>
-          
         </Select>
       </FormControl>
-      
     ),
     action: (
       <Link to="/SignUp">
-      <Button
-      bg="rgb(17, 48, 75)"
-      variant="outline"
-      size="sm"
-      color="white"
-      _hover={{ bg: "rgb(17, 48, 75)" }}
-      mt={4}
-      >
-       Start Process
-      </Button>
+        <Button
+          bg="rgb(17, 48, 75)"
+          variant="outline"
+          size="sm"
+          color="white"
+          _hover={{ bg: "rgb(17, 48, 75)" }}
+          mt={4}>
+          Start Process
+        </Button>
       </Link>
     ),
-
   },
   {
     id: 5,
     name: "Driver's License Renewal",
     price: 5000,
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Select the number of years of validity you require.",
     selection9: (
       <FormControl>
-        {/* <FormLabel>Vehicle Papers Renewal</FormLabel> */}
         <Select placeholder="Choose lenght of Validity">
           <option>3 Years Validity</option>
           <option>5 Years validity </option>
-          
         </Select>
-         
       </FormControl>
     ),
-     action: (
+    action: (
       <Link to="/SignUp">
-
-
-      <Button
-        bg="rgb(17, 48, 75)"
-        variant="outline"
-        size="sm"
-        color="white"
-        _hover={{ bg: "rgb(17, 48, 75)" }}
-        mt={4}
-      >
-      Start Driver'sLicense Renewal
-      </Button>
+        <Button
+          bg="rgb(17, 48, 75)"
+          variant="outline"
+          size="sm"
+          color="white"
+          _hover={{ bg: "rgb(17, 48, 75)" }}
+          mt={4}>
+          Start Driver'sLicense Renewal
+        </Button>
       </Link>
     ),
   },
 ];
 
 const PricingPage = () => {
-  // const [selectedPlans, setSelectedPlans] = useState([]);
-  // const [total, setTotal] = useState(0);
-
-  // const handleAddToSelectedPlans = (plan) => {
-  //   setSelectedPlans((prevSelectedPlans) => [...prevSelectedPlans, plan]);
-  // };
-
-  // const handleRemoveFromSelectedPlans = (planId) => {
-  //   setSelectedPlans((prevSelectedPlans) =>
-  //     prevSelectedPlans.filter((plan) => plan.id !== planId)
-  //   );
-  // };
-
-  // const handleCalculateTotal = () => {
-  //   const total = selectedPlans.reduce((acc, plan) => acc + plan.price, 0);
-  //   setTotal(total);
-
-  const [selectedPlans, setSelectedPlans] = useState([]);
   const [total, setTotal] = useState(0);
   const [selectedPlan, setSelectedPlan] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState("");
@@ -323,7 +281,7 @@ const PricingPage = () => {
   const [selectedNumberPlateType, setSelectedNumberPlateType] = useState("");
   const [isChecked, setIsChecked] = useState({
     "vehicle licence": false,
-    "Roadworthiness": false,
+    Roadworthiness: false,
     "Third Party Insurance": false,
     "Hackney Permit": false,
   });
@@ -363,7 +321,7 @@ const PricingPage = () => {
         });
       }
       if (selectedPlan.selection) {
-        totalCost += 500;
+        totalCost += 1000;
       }
       if (
         selectedPlan.selection2 &&
@@ -381,57 +339,50 @@ const PricingPage = () => {
       }
     }
     return totalCost;
-
   };
 
   return (
-    <Flex maxW="container.lg" 
-    py={1}
+    <Flex
+      maxW="container.lg"
+      py={1}
       minW="100%"
-      // Wrap="wrap"
       bg="whiteAlpha.900"
       minH="100vh"
-      // justifyContent="center"
-      flexDirection="column"
-    >
-<Nav/>
+      flexDirection="column">
+      <Nav />
 
-      <VStack spacing={8} >
-        <Heading as="h1" size="2xl" color="blue.800" mt="100px" >
+      <VStack spacing={8}>
+        <Heading as="h1" size="2xl" color="blue.800" mt="100px">
           Pricing Plans
         </Heading>
 
-        <Box w="100%"
-        // align="center" 
-        // Wrap="wrap"
-        >
-          <SimpleGrid columns={[1, 2, 3, 4]} gap={8} Wrap="wrap" margin={4}
-          
-        
-          >
-          {/* <Flex gap={4} Wrap="wrap"> */}
-          {/* Wrap="wrap"
-          // justifyContent="center"
-          // margin={20}
-          > */}
+        <Box w="100%">
+          <SimpleGrid columns={[1, 2, 3, 4]} gap={8} Wrap="wrap" margin={4}>
             {PRICING_PLANS.map((plan) => (
-              <Box key={plan.id} bg="white" 
-              // Wrap="wrap"
-
-        boxShadow="lg"
-              >
-                <Box 
+              <Box key={plan.id} bg="white" boxShadow="lg">
+                <Box
                   borderWidth={1}
                   borderColor="gray.200"
                   borderRadius="md"
-                  // mt="10px"
                   p={4}>
                   <Heading as="h2" size="md">
                     {plan.name}
                   </Heading>
 
+                  <Box
+                    color="rgb(17, 48,75)"
+                    fontSize="sm"
+                    mt={2}
+                    borderRadius="10px"
+                    bg="blue.50"
+                    p="2"
+                    borderWidth={1}>
+                    {plan.description}
+                  </Box>
+
                   <Text color="gray.600" mt={2}>
                     {plan.selection}
+                    {() => handlePlanSelect(plan)}
                   </Text>
 
                   <Text color="gray.600" mt={2}>
@@ -475,67 +426,18 @@ const PricingPage = () => {
                     <Input
                       type="number"
                       value={total}
-                      onChange={(e) => setTotal(e.target.value)}
+                      onChange={(e) => handleCheckboxChange(e.target.value)}
                     />
-                    {/* {plan.total} */}
                   </FormControl>
 
-
-                  <FormControl id="action">
-                    {plan.action}
-                    </FormControl>
-
-
-
-                  {/* <Button
-                    bg="rgb(17, 48, 75)"
-                    color="whiteAlpha.800"
-                    w="100%" 
-                    _hover={{ bg: "rgb(17, 48, 75)" }}
-                    mt={2}
-
-                    onClick={() => handlePlanSelect(plan)}>
-                    {/* onClick={calculateTotalCost}> */}
-                    {/* Start Your Paper Renewal</Box> */}
-                  {/* </Button> */} 
-
-                  {/* <Box d="flex" justifyContent="space-between" mt={4}>
-                    <Text fontWeight="semibold">${plan.price} / month</Text>
-                    {selectedPlans.find((p) => p.id === plan.id) ? (
-                      <Button
-                        colorScheme="red"
-                        onClick={() => handleRemoveFromSelectedPlans(plan.id)}>
-                        Remove
-                      </Button>
-                    ) : (
-                      <Button
-                        colorScheme="blue"
-                        onClick={() => handleAddToSelectedPlans(plan)}>
-                        Select
-                      </Button>
-                    )}
-                  </Box> */}
+                  <FormControl id="action">{plan.action}</FormControl>
                 </Box>
               </Box>
             ))}
-          {/* </Flex> */}
           </SimpleGrid>
         </Box>
-
-        {/* <FormControl id="total">
-          <FormLabel>Total</FormLabel>
-          <Input
-            type="number"
-            value={total}
-            onChange={(e) => setTotal(e.target.value)}
-          />
-        </FormControl>
-
-        <Button colorScheme="blue" onClick={handleCalculateTotal}>
-          Calculate Total
-        </Button> */}
       </VStack>
-      <Footer/>
+      <Footer />
     </Flex>
   );
 };

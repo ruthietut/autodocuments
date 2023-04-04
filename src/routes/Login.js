@@ -16,6 +16,8 @@ import {
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import autodocslogo from "../assets/autodocs-Logo.png";
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -43,8 +45,22 @@ function Login() {
   }
 
   return (
-    <Box p={8} bg="rgb(17, 48, 75)" minH="100vh">
-      <Box maxW="md" mx="auto" bg="white" boxShadow="md" p={8}>
+    <Flex
+      flexDirection="column"
+      bg="whiteAlpha.900"
+      w="100%"
+      Wrap="wrap"
+      h="100%">
+      <Nav />
+      <Box
+        maxW="md"
+        mx="auto"
+        bg="blue.100"
+        boxShadow="md"
+        mt="150px"
+        p={8}
+        borderWidth={2}
+        mb="20px">
         <Flex justify="center" mb="-6" mt="-5">
           <Image
             className="logo"
@@ -102,7 +118,9 @@ function Login() {
           Don't have an account? <Link to="/SignUp">Sign up</Link>
         </Text>
       </Box>
-    </Box>
+
+      <Footer />
+    </Flex>
   );
 }
 export default Login;

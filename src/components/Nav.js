@@ -13,7 +13,9 @@ const NavBar = () => {
       align="center"
       justify="space-between"
       wrap="wrap"
-      position="fixed"
+      position="Fixed"
+      top="0"
+      zIndex="1"
       bg="rgb(17, 48, 75)"
       color="white"
       w="100%">
@@ -32,14 +34,11 @@ const NavBar = () => {
 
       {/* // eslint-disable-next-line no-undef */}
 
-      <Box display={{ base:"block", md: "none" }}
-      
-       mr="4" onClick={toggle}>
+      <Box display={{ base: "block", md: "none" }} mr="4" onClick={toggle}>
         <svg
           fill="white"
           width="20px"
           viewBox="0 0 20 20"
-          
           xmlns="http://www.w3.org/2000/svg">
           <title>Menu</title>
           <path d="M0,3h20v2H0V3z M0,9h20v2H0V9z M0,15h20v2H0V15z" />

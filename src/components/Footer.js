@@ -2,11 +2,16 @@ import { Box, Flex, Link, Text } from "@chakra-ui/react";
 
 function Footer() {
   return (
-    <Flex as="footer" bg="rgb(17, 48, 75)" color="white" p={8}
-    width="100%" direction="column" align="center" >
-    
+    <Flex
+      as="footer"
+      bg="rgb(17, 48, 75)"
+      color="white"
+      p={8}
+      width="100%"
+      direction="column"
+      align="center">
       <Flex justify="center" gap="40px" wrap="wrap">
-        <Flex direction="column" align="center" >
+        <Flex direction="column" align="center">
           <Text mb={4}>Connect with us:</Text>
           <Flex mb={4}>
             <Link
