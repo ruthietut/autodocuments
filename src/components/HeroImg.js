@@ -42,7 +42,7 @@ function HeroImg() {
       w="100%"
       wrap="wrap">
       <Box maxW="xl" mx="auto" textAlign="center" mt="20" wrap="wrap">
-        <Heading fontSize="5em" mb={1} color="yellow.500" wrap="wrap">
+        <Heading fontSize="4rem" mb={1} color="yellow.500" wrap="wrap">
           AUTODOCS
         </Heading>
         <Text color="white" fontSize="1.4rem">
